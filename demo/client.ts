@@ -172,6 +172,7 @@ function createTerminal(): void {
   const isWindows = ['Windows', 'Win16', 'Win32', 'WinCE'].indexOf(navigator.platform) >= 0;
   term = new Terminal({
     windowsMode: isWindows,
+    rendererType: 'dom',
     fontSize: 15,
     fontFamily: 'flow, monospace'
     // fontFamily: 'Iosevka Slab, courier-new, courier, monospace'
