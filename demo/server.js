@@ -36,6 +36,7 @@ function startServer() {
     res.sendFile(__dirname + '/style.css');
   });
 
+  app.use('/fonts', express.static(__dirname + '/fonts'));
   app.use('/dist', express.static(__dirname + '/dist'));
   app.use('/src', express.static(__dirname + '/src'));
 

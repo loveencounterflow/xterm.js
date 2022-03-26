@@ -172,7 +172,9 @@ function createTerminal(): void {
   const isWindows = ['Windows', 'Win16', 'Win32', 'WinCE'].indexOf(navigator.platform) >= 0;
   term = new Terminal({
     windowsMode: isWindows,
-    fontFamily: 'Fira Code, courier-new, courier, monospace'
+    fontFamily: 'flow, monospace'
+    // fontFamily: 'Iosevka Slab, courier-new, courier, monospace'
+    // fontFamily: 'Fira Code, courier-new, courier, monospace'
   } as ITerminalOptions);
 
   // Load addons
