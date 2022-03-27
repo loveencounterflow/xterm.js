@@ -56,7 +56,7 @@ pre {
 
 
 #container {
-    display: flex;
+    /*display: flex;*/
     height: 75vh;
 }
 #grid {
