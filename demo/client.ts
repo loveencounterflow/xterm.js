@@ -174,6 +174,8 @@ function createTerminal(): void {
     windowsMode: isWindows,
     rendererType: 'dom',
     fontSize: 15,
+    cols: 200,
+    rows: 50,
     fontFamily: 'flow, monospace'
     // fontFamily: 'Iosevka Slab, courier-new, courier, monospace'
     // fontFamily: 'Fira Code, courier-new, courier, monospace'
