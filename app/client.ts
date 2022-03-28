@@ -449,9 +449,9 @@ function updateTerminalSize(): void {
   const rows = parseInt((<HTMLInputElement>document.getElementById(`opt-rows`)).value, 10);
   const width = (cols * term._core._renderService.dimensions.actualCellWidth + term._core.viewport.scrollBarWidth).toString() + 'px';
   const height = (rows * term._core._renderService.dimensions.actualCellHeight).toString() + 'px';
-  console.debug( '^38371^', "updateTerminalSize does not set terminalContainer size" );
-  terminalContainer.style.width = width;
-  terminalContainer.style.height = height;
+  console.debug( '^354555^', "updateTerminalSize does not set terminalContainer size" );
+  // terminalContainer.style.width = width;
+  // terminalContainer.style.height = height;
   addons.fit.instance.fit();
 }
 
