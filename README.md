@@ -10,15 +10,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [XXTerm](#xxterm)
-  - [To Do](#to-do)
+- [A Terminal With Precisely Configurable Fonts Using CSS Unicode Ranges](#a-terminal-with-precisely-configurable-fonts-using-css-unicode-ranges)
+- [To Do](#to-do)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## A Terminal With Precisely Configurable Fonts Using CSS Unicode Ranges
+
+* Why XXTerm
+* Why CSS Unicode Ranges
 
 
-
-# XXTerm
 
 
 ## To Do
